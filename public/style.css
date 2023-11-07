@@ -1,0 +1,71 @@
+/* comment */
+
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+
+body {
+    font-family:'Helvetica Neue', sans-serif;
+    font-size: 15pt;
+}
+
+header {
+    margin-top: 70px;
+    margin-left: 10px;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.head_text{
+    top: 10vw;  /* Where it is based on the parent (in this case header) */
+    left: 10vw;
+    position: absolute;
+
+}
+
+header img{
+    opacity: 0.55;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.burger_wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+#burger_info {
+    color: white;
+    background-color: black;
+    
+}
+
+#burger_info_header{
+    padding: 10px;
+}
+
+#burger_info div{
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed white;
+}
+
+#allergy{
+    font-weight: bold;
+}
+
+.delivery_info {
+    border: 2px dashed black;
+    padding-left: 10px;
+}
+
+button:hover {
+    background-color: green;
+    cursor: grab;
+}
+
+button {
+    margin-top: 50px;
+}
