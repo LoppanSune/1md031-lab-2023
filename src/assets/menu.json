@@ -1,0 +1,24 @@
+[
+    {
+      "name": "BB-Budget burger",
+      "img": "https://s7d1.scene7.com/is/image/mcdonalds/Header_Cheeseburger_832x472:1-3-product-tile-desktop?wid=763&hei=472&dpr=off",
+      "kCal": 350,
+      "allergies":["lactose", "gluten"] ,
+      "description": "Our most budget friendly burger, very basic"
+    },
+    {
+        "name": "FB-Fishy burger",
+        "img": "https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-filet-o-fish-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off",
+        "kCal": 300,
+        "allergies":[] ,
+        "description": "A pesciterain friendly burger, straight from the ocean"
+    },
+    {
+        "name": "KB-King burger",
+        "img": "https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-big-tasty-thickerbeef:1-3-product-tile-desktop?wid=829&hei=515&dpr=off",
+        "kCal": 450,
+        "allergies":["gluten"] ,
+        "description": "It's big, it's tasty, it's fit for a KING"
+      }
+  ]
+

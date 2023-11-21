@@ -1,136 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en">
-   <head> <!--Comment here :)-->
-       <title>BuergerOnline</title>
-       <meta charset="utf-8"/>
-       <link rel="stylesheet" type="text/css" href="/Users/agnesblom/Documents/VisualStudio/1md031-lab-2023/public/style.css">
-   </head>
-   <body>
-    
-    <header>
-        <img src="https://beyondtype1.org/wp-content/uploads/2023/01/FAST-FOOD-CHAIN-NUTRITION-GUIDE-HEADER-1200x429.jpg" alt="fast food header">
-
-        <section class="head_text">
-            <h1>
-                Welcome to BurgerOnline!
-            </h1>
-            <h2>
-                The biggest, and only, selection of online burgers
-            </h2>
-        </section>
-        
-    </header>
-    
-    
-    <main>
-        <section id="burger_info">
-            <section id="burger_info_header">
-                <h3>Burger selection</h3>
-                <p>Please select the burgers you wish to order</p>
-            </section>
-            
-            <div class="burger_wrapper">
-                <div style="display: inline-block;">
-                    <h5>BB - Budget burger</h5>
-                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/Header_Cheeseburger_832x472:1-3-product-tile-desktop?wid=763&hei=472&dpr=off"
-                alt="Budget burger pic" title="Budget burger" style="width: 20vw;">
-    
-                    <section class="details">
-                        <ul>
-                            <li>Our most budget friendly burger, very basic</li>
-                            <li>Contains <span id="allergy">lactose</span> and <span id="allergy">gluten</span></li>
-                        </ul>
-                    </section>
-                    
-                </div>
-    
-                <div style="display: inline-block;">
-                    <h5>FB - Fishy burger</h5>
-                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-filet-o-fish-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
-                alt="Fishy burger pic" title="Fishy burger" style="width: 20vw;">
-                    <section class="details">
-                        <ul>
-                            <li>A pesciterain friendly burger straight from the ocean, no gluten</li>
-                            <li>Contains <span id="allergy">lactose</span></li>
-                        </ul>
-                    </section>
-                    
-                </div>
-    
-                <div style="display: inline-block;">
-                    <h5>KB - KING burger</h5>
-                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-big-tasty-thickerbeef:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
-                alt="King burger pic" title="King burger" style="width: 20vw;">
-                    <section class="details">
-                        <ul>
-                            <li>It's big, it's tasty, it's fit for a KING</li>
-                            <li>Contains <span id="allergy">lactose</span> and <span id="allergy">gluten</span></li> 
-                        </ul>
-                    </section>
-                    
-                </div>
-
-            </div>
-            
-            
-        </section>
-
-        <section class="delivery_info">
-            <h3>Delivery inforamtion</h3>
-            <p>Please insert the requested information</p>
-
-            <p>
-                <label for="firstname">Full name</label><br>
-                <input type="text" id="name" name="name" required="required" placeholder="First- and last name">
-            </p>
-            <p>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="at" placeholder="email">
-            </p>
-            <p>
-                <label for="street">Street</label><br>
-                <input type="text" id="street" name="street" required="required" placeholder="street">
-            </p>
-            <p>
-                <label for="housenr">House number</label><br>
-                <input type="number" id="housenr" name="nr" required="required" placeholder="Street number">
-            </p>
-
-            <p>
-                <label for="payment">Payment method</label><br>
-                <select id="payment" name="pay">
-                    <option selected="selected">Card</option>
-                    <option>Cash upon delivery</option>
-                    <option>Billed to adress</option>
-                    <option>PayPal</option>
-                    
-
-                </select>
-            </p>
-
-            <p>
-
-                <label for="gender">Female</label>
-                <input type="radio" name="gender" value="female">
-                <label for="gender">Male</label>
-                <input type="radio" name="gender" value="Male">
-                <label for="gender">Other/do not wish to specify</label>
-                <input type="radio" name="gender" checked="checked" value="other">
-            </p>
-        </section>
-
-        <button type="submit">
-            <img src="https://cdn2.iconfinder.com/data/icons/shopping-e-commerce-2-1/32/Success-Place-Order-Complete-Shopping-Tick-512.png" style="width: 30px;">
-            Place order
-        </button>
-    </main>
-
-    <footer>
-        <hr>
-        Have a nice day!   
-    </footer>
-
-
-         
-   </body>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
